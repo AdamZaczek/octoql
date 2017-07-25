@@ -1,0 +1,15 @@
+{
+  "name": "generator-octoql",
+  "version": "0.1.3",
+  "author": "Adam Żaczek",
+  "description": "Genrate your own api middleware.",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  }
+}
