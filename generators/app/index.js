@@ -7,33 +7,28 @@ module.exports = class extends Generator {
   writing() {
 
     this.fs.copyTpl(
-      this.templatePath('/schema/schema.js'),
-      this.destinationPath('/schema/schema.js'),
+      this.templatePath('./schema/schema.js'),
+      this.destinationPath('./schema/schema.js'),
       { title: 'Generated schema file!' }
     );
 
-    // this.fs.copyTpl(
-    //   this.templatePath('/schema/ImType.js'),
-    //   this.destinationPath('/schema/ImType.js'),
-    //   { title: 'Generated schema file!' }
-    // );
+    this.fs.copyTpl(
+      this.templatePath('./schema/ImType.js'),
+      this.destinationPath('./schema/ImType.js'),
+      { title: 'Generated schema file!' }
+    );
 
-    // this.fs.copyTpl(
-    //   this.templatePath('/schema/UserType.js'),
-    //   this.destinationPath('/schema/UserType.js'),
-    //   { title: 'Generated schema file!' }
-    // );
-    //
-    // this.fs.copyTpl(
-    //   this.templatePath('/schema/MessageType.js'),
-    //   this.destinationPath('/schema/MessageType.js'),
-    //   { title: 'Generated schema file!' }
-    // );
-    //
-    // this.fs.copyTpl(
-    //   this.templatePath('index.js'),
-    //   this.destinationPath('src/index.js'),
-    //   { title: 'Generate console logs!' }
-    // );
+    this.fs.copyTpl(
+      this.templatePath('./schema/UserType.js'),
+      this.destinationPath('./schema/UserType.js'),
+      { title: 'Generated schema file!' }
+    );
+
+    this.fs.copyTpl(
+      this.templatePath('./schema/MessageType.js'),
+      this.destinationPath('./schema/MessageType.js'),
+      { title: 'Generated schema file!' }
+    );
+
   }
 };
