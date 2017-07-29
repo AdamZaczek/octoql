@@ -30,5 +30,25 @@ module.exports = class extends Generator {
       { title: 'Generated schema file!' }
     );
 
+    this.fs.copyTpl(
+      this.templatePath('readConfig.js'),
+      this.destinationPath('readConfig.js'),
+      { title: 'Generated schema file!' }
+    );
+
+    this.fs.copyTpl(
+      this.templatePath('package.json'),
+      this.destinationPath('package.json'),
+      { title: 'Generated package.json!' }
+    );
+
+    this.fs.copyTpl(
+      this.templatePath('.babelrc'),
+      this.destinationPath('.babelrc'),
+      { title: 'Generated babelrc!' }
+    );
+
+    this.spawnCommand('yarn');
+
   }
 };
