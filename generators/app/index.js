@@ -1,7 +1,8 @@
 var Generator = require('yeoman-generator');
+const chalk = require('chalk');
 module.exports = class extends Generator {
   init() {
-    this.log('Generating GraphQL Schema');
+    this.log(chalk.blue('Generating GraphQL Schema'));
   }
 
   writing() {
