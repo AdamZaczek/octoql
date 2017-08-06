@@ -1,8 +1,11 @@
 > Generate GraphQL schema in a consistent, database-agnostic way.
 
+## To Anyone downloading it the project at the moment
+The project is still far from working, feel free to look around in the meantime.
+
 ## Why OctoQl &#x1F419;
 
- * Once finished, OctoQl will aim to support scaffolding data logic in a database-agnostic manner.  
+ Once finished, OctoQl will aim to support scaffolding data logic in a database-agnostic manner.  
  That means OctoQl will look at your data as sets of arrays and objects retreived from source of your choice, be it your
  own database, some public api or any other source of truth.  
 

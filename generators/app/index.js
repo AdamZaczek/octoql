@@ -1,4 +1,4 @@
-const octo = require('./mario');
+const octo = require('./octo');
 const chalk = require('chalk');
 
 var Generator = require('yeoman-generator');
