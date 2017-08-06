@@ -1,6 +1,6 @@
 {
   "name": "generator-octoql",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "Adam Żaczek",
   "description": "Genrate your own api middleware.",
   "files": [
