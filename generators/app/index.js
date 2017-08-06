@@ -1,7 +1,10 @@
-var Generator = require('yeoman-generator');
+const mario = require('./mario');
 const chalk = require('chalk');
+
+var Generator = require('yeoman-generator');
 module.exports = class extends Generator {
   init() {
+    console.log(chalk.magenta(mario));
     this.log(chalk.blue('Generating GraphQL Schema'));
   }
 
