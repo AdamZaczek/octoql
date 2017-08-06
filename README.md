@@ -1,6 +1,6 @@
 > Generate GraphQL schema in a consistent, database-agnostic way.
 
-## Why OctoQl
+## Why OctoQl &#x1F419;
 
  * Once finished, OctoQl will aim to support scaffolding data logic in a database-agnostic manner.  
  That means OctoQl will look at your data as sets of arrays and objects retreived from source of your choice, be it your
@@ -20,7 +20,11 @@ Then generate your schema:
 
 ```bash
 mkdir schema  
-touch configFile.js, fill configFile with description of your data <-- this will be generated soon  
+touch configFile.js
+```
+fill configFile with description of your data (this will be generated soon) and then
+
+```bash
 yo octoql  
 ```
 
